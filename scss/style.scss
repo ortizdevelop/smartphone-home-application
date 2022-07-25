@@ -94,10 +94,12 @@ body{
 }
 
 .header {
-
+  border: $border1;
   &__row {
     width: 1512px;
     height: 550px;
+    background: url('/assets/img/header/bg.png');
+    
   }
 
   .header-nav {

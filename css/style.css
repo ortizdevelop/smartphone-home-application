@@ -80,7 +80,12 @@ body {
   background-color: #fff;
 }
 
+.header {
+  border: 1px solid red;
+}
+
 .header__row {
   width: 1512px;
   height: 550px;
+  background: url("/assets/img/header/bg.png");
 }
