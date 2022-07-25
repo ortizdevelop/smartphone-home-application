@@ -549,3 +549,64 @@ body{
     }
   }
 }
+
+.content-main-clients {
+  margin-top: 400px;
+  margin-left: 232px;
+
+  .clients {
+
+      &__row {
+        padding-top: 300px;
+        transform: translate(0,-100px);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 1949px;
+        height: 469px;
+        background: url('/assets/img/content-main-clients/Ellipse\ 6.png') 1400px 0px no-repeat;
+      }
+
+      &__title {
+        padding-right: 700px;
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 113%;
+        text-align: center;
+        color: #231f20;
+        margin-bottom: 40px;
+      }
+
+      &__subtitle {
+        margin-right: 700px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 113%;
+        text-align: center;
+        color: #121a27;
+        margin-bottom: 88px;
+        height: 70px;
+        width: 786px;
+        left: 363px;
+        top: 4063px;
+        border-radius: nullpx;
+
+      }
+
+      &__column {
+      }
+
+      &__column-body {
+        margin-right: 700px;
+        width: 1290px;
+        transform: translateX(50px);
+        
+        li{
+          display: inline-block;
+          margin-right: 120px;
+          margin-bottom: 60px;
+        }
+      }
+  }
+}
