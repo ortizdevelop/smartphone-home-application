@@ -282,11 +282,34 @@ body{
 
     li{
       margin-bottom: 56px;
+
+      a{
+        padding: 5px;
+        padding-bottom: 13px;
+        border-radius: 7px;
+
+        &:hover{
+          background-color: #000000;
+          box-shadow: 0px 4px 1px $color1;
+          transition: 0.3s;
+        }
+
+        &:active{
+          position: relative;
+          top: 3px;
+          box-shadow: 0px 2px 1px $color1;
+          transition: 0.3s;
+        }
+      }
     }
   }
 }
 .media1 {
-  transform: translateX(7px);
+  transform: translateX(px);
+  
+  img{
+    padding: 0 5px;
+  }
 }
 .media2 {
 }

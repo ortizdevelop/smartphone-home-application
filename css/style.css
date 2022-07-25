@@ -296,9 +296,36 @@ body {
   margin-bottom: 56px;
 }
 
+.header-media__list li a {
+  padding: 5px;
+  padding-bottom: 13px;
+  border-radius: 7px;
+}
+
+.header-media__list li a:hover {
+  background-color: #000000;
+  -webkit-box-shadow: 0px 4px 1px #FFFFFF;
+          box-shadow: 0px 4px 1px #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header-media__list li a:active {
+  position: relative;
+  top: 3px;
+  -webkit-box-shadow: 0px 2px 1px #FFFFFF;
+          box-shadow: 0px 2px 1px #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .media1 {
-  -webkit-transform: translateX(7px);
-          transform: translateX(7px);
+  -webkit-transform: translateX(px);
+          transform: translateX(px);
+}
+
+.media1 img {
+  padding: 0 5px;
 }
 
 .header-images {
