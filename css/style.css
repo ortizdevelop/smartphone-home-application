@@ -588,15 +588,117 @@ body {
 
 .content-main-test {
   margin-top: 350px;
-  margin-left: 460px;
+  margin-left: 232px;
+}
+
+.content-main-test .test__row {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content-main-test .test__title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 113%;
+  text-align: center;
+  color: #231f20;
+}
+
+.content-main-test .test__subtitle {
+  margin-bottom: 58px;
+  margin-left: 235px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 113%;
+  text-align: center;
+  color: #121a27;
+  height: 70px;
+  width: 786px;
+  left: 363px;
+  top: 4683px;
+}
+
+.content-main-test .test__columns {
+  border: 1px solid red;
+  width: 1300px;
+}
+
+.content-main-test .test__lists li {
+  display: inline-block;
+  width: 626px;
+  height: 274px;
+  background-color: #f2f2f2;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.content-main-test .test-list__text {
+  font-size: 20px;
+  line-height: 113%;
+  color: #73686b;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 36px;
+  margin-left: 33px;
+}
+
+.content-main-test .test-list__img {
+  margin-top: 49px;
+  margin-left: 49px;
+}
+
+.content-main-test .test-list__name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 113%;
+  color: #231f20;
+  margin-left: 145px;
+  -webkit-transform: translateY(-49px);
+          transform: translateY(-49px);
+}
+
+.content-main-test .test-list__dev {
+  font-size: 16px;
+  line-height: 113%;
+  color: #231f20;
+  margin-left: 145px;
+  -webkit-transform: translateY(-49px);
+          transform: translateY(-49px);
 }
 
 .content-main-faq {
   margin-top: 146px;
-  margin-left: 460px;
+  margin-left: 232px;
+}
+
+.content-main-faq .faq__row {
+  border: 1px solid red;
+}
+
+.content-main-faq .faq__title {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 113%;
+  text-align: center;
+  color: #231f20;
 }
 
 .footer {
   margin-top: 60px;
-  margin-left: 460px;
+  margin-left: 232px;
+}
+
+.footer__row {
+  border: 1px solid red;
 }

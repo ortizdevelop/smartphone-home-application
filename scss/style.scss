@@ -613,52 +613,113 @@ body{
 
 .content-main-test {
   margin-top: 350px;
-  margin-left: 460px;
+  margin-left: 232px;
 
   .test {
 
       &__row {
+        border: $border1;
+        display: flex;
+        flex-direction: column;
       }
 
       &__title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 113%;
+        text-align: center;
+        color: #231f20;
       }
 
       &__subtitle {
+        margin-bottom: 58px;
+        margin-left: 235px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 113%;
+        text-align: center;
+        color: #121a27;
+        height: 70px;
+        width: 786px;
+        left: 363px;
+        top: 4683px;
       }
 
       &__columns {
+        border: $border1;
+        width: 1300px;
       }
 
       &__lists {
+        
+        li{
+          display: inline-block;
+          width: 626px;
+          height: 274px;
+          background-color: #f2f2f2;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 15px;
+          margin-right: 20px;
+          margin-bottom: 20px;
+        }
       }
   }
 
   .test-list {
 
       &__text {
+        font-size: 20px;
+        line-height: 113%;
+        color: #73686b;
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 36px;
+        margin-left: 33px;
       }
 
       &__img {
+        margin-top: 49px;
+        margin-left: 49px;
       }
 
       &__name {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 113%;
+        color: #231f20;
+        margin-left: 145px;
+        transform: translateY(-49px);
       }
 
       &__dev {
+        font-size: 16px;
+        line-height: 113%;
+        color: #231f20;
+        margin-left: 145px;
+        transform: translateY(-49px);
       }
   }
 }
 
 .content-main-faq {
   margin-top: 146px;
-  margin-left: 460px;
+  margin-left: 232px;
 
   .faq {
 
       &__row {
+        border: $border1;
       }
 
       &__title {
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 113%;
+        text-align: center;
+        color: #231f20;
       }
 
       &__columns {
@@ -670,9 +731,10 @@ body{
 
 .footer {
   margin-top: 60px;
-  margin-left: 460px;
+  margin-left: 232px;
 
 		&__row {
+      border: $border1;
 		}
 
 		&__title {
