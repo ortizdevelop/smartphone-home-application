@@ -88,8 +88,67 @@ $border2: 1px solid blue; //*Borders
 $border3: 1px solid rgb(127, 57, 207);
 
 body{
-  margin: 0 auto;
   width: 1512px;
   height: 7361px;
   background-color: #fff;
+}
+
+.header {
+
+  &__row {
+    width: 1512px;
+    height: 550px;
+  }
+
+  .header-nav {
+
+    &__menu {
+    }
+
+    &__title {
+    }
+
+    &__login {
+    }
+
+    &__link {
+    }
+
+    &__bg {
+    }
+  }
+  .header-title {
+
+    &__text {
+    }
+  }
+  .header-media {
+
+    &__list {
+    }
+  }
+  .media1 {
+  }
+  .media2 {
+  }
+  .media3 {
+  }
+  .media4 {
+  }
+  .header-images {
+
+    &__phones {
+    }
+
+    &__ellipse {
+    }
+  }
+  .header-links {
+
+    &__app-store {
+    }
+
+    &__gplay {
+    }
+  }
 }
