@@ -803,10 +803,104 @@ body {
 }
 
 .footer {
-  margin-top: 60px;
+  margin-top: 160px;
   margin-left: 232px;
 }
 
 .footer__row {
-  border: 1px solid red;
+  height: 1000px;
+}
+
+.footer__title {
+  border-radius: 7px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 113%;
+  color: #231f20;
+  height: 156px;
+  width: 333px;
+  left: 282px;
+  top: 6658px;
+  border-radius: nullpx;
+  margin-bottom: 31px;
+  margin-left: 142px;
+}
+
+.footer__title:hover {
+  background-color: #121A27;
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 113%;
+  color: #121a27;
+  height: 176px;
+  width: 567px;
+  left: 284px;
+  top: 6835px;
+  border-radius: nullpx;
+  margin-left: 142px;
+}
+
+.footer__links {
+  -webkit-transform: translate(100px, -65px);
+          transform: translate(100px, -65px);
+}
+
+.footer__phone {
+  -webkit-transform: translate(700px, -630px);
+          transform: translate(700px, -630px);
+}
+
+.footer__logo {
+  -webkit-transform: translate(250px, -750px);
+          transform: translate(250px, -750px);
+}
+
+.footer__author {
+  -webkit-transform: translate(0px, -600px);
+          transform: translate(0px, -600px);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 113%;
+  color: #231f20;
+}
+
+.footer__git {
+  border: 4px solid #F49A1E;
+  -webkit-transform: translate(390px, -600px);
+          transform: translate(390px, -600px);
+  width: 500px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 113%;
+  color: #231f20;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #121A27;
+}
+
+.footer__git span {
+  color: #FFFFFF;
+}
+
+.footer__git:hover {
+  border: 4px solid #121A27;
+  background-color: #D91252;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer__git:active {
+  border: 4px solid #D91252;
+  background-color: #F49A1E;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
