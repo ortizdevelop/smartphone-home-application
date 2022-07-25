@@ -612,6 +612,8 @@ body{
 }
 
 .content-main-test {
+  margin-top: 350px;
+  margin-left: 460px;
 
   .test {
 
@@ -630,6 +632,7 @@ body{
       &__lists {
       }
   }
+
   .test-list {
 
       &__text {
@@ -644,4 +647,43 @@ body{
       &__dev {
       }
   }
+}
+
+.content-main-faq {
+  margin-top: 146px;
+  margin-left: 460px;
+
+  .faq {
+
+      &__row {
+      }
+
+      &__title {
+      }
+
+      &__columns {
+      }
+  }
+  .faq-lists {
+  }
+}
+
+.footer {
+  margin-top: 60px;
+  margin-left: 460px;
+
+		&__row {
+		}
+
+		&__title {
+		}
+
+		&__subtitle {
+		}
+
+		&__links {
+		}
+
+		&__phone {
+		}
 }

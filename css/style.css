@@ -585,3 +585,18 @@ body {
   margin-right: 120px;
   margin-bottom: 60px;
 }
+
+.content-main-test {
+  margin-top: 350px;
+  margin-left: 460px;
+}
+
+.content-main-faq {
+  margin-top: 146px;
+  margin-left: 460px;
+}
+
+.footer {
+  margin-top: 60px;
+  margin-left: 460px;
+}
