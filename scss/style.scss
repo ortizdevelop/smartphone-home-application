@@ -84,73 +84,232 @@ $color5: #121A27;
 $color6: #555555;
 
 $border1: 1px solid red; 
-$border2: 1px solid blue; //*Borders
+$border2: 1px solid blue;               //*Borders
 $border3: 1px solid rgb(127, 57, 207);
+$border4: 1px solid #ffc0cb;
 
 body{
   width: 1512px;
   height: 7361px;
   background-color: #fff;
+  margin-left: 180px;
+  font-family: 'Poppins', sans-serif;
 }
 
+
 .header {
-  border: $border1;
+  color: $color1;
+
   &__row {
     width: 1512px;
-    height: 550px;
+    height: 850px;
     background: url('/assets/img/header/bg.png');
+  }
+}
+.header-nav {
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 58px;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+
+  &__menu {
+    width: 530px;
+    height: 25px;
+
+    li{
+      display: inline;
+      margin-right: 46px;
+      padding: 3px;
+      font-size: 16px;
+
+      a{
+        padding: 5px;
+        border-radius: 7px;
+
+        span{
+          color: $color1;
+        }
+
+        &:hover{
+          background-color: $color1;
+          transition: 0.4s;
+
+          span{
+            color: #000000;
+            transition: 0.4s;
+          }
+        }
+      }
+    }
+  }
+
+  &__list {
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 250px;
+    transform: translateX(80px);
+  }
+
+  &__login {
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid none;
     
-  }
 
-  .header-nav {
+    &:hover{
+      color: transparent;
+      background-clip: text;
+      background-image: linear-gradient(#F83B7F, #FA9A2F);
+      border: 3px solid $color1;
+      transition: 0.25s;
 
-    &__menu {
+      span{
+        color: $color1;
+      }
     }
 
-    &__title {
-    }
+    &:active{
+      position: relative;
+      top: 3px;
+      background-color: #fff;
+      background-image: none;
+      border-radius: 7px;
+      box-shadow: -12px 5px 30px 1px rgba(0, 0, 0, 0.25);
+      transition: 0.3s;
 
-    &__login {
-    }
-
-    &__link {
-    }
-
-    &__bg {
-    }
-  }
-  .header-title {
-
-    &__text {
-    }
-  }
-  .header-media {
-
-    &__list {
+      span{
+        color: #000000;
+      }
     }
   }
-  .media1 {
-  }
-  .media2 {
-  }
-  .media3 {
-  }
-  .media4 {
-  }
-  .header-images {
 
-    &__phones {
+  &__link {
+    margin-right: 180px;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    width: 148px;
+    height: 54px;
+    border-radius: 7px;
+    border: 3px solid none;
+    
+    span{}
+
+    span{
+      color: $color1;
+      font-size: 20px;
+      font-weight: 500;
     }
 
-    &__ellipse {
+    &:hover{
+      color: transparent;
+      background-clip: text;
+      background-image: linear-gradient(#F83B7F, #FA9A2F);
+      border: 3px solid $color1;
+      transition: 0.25s;
+
+      span{
+        color: $color1;
+      }
+    }
+
+    &:active{
+      position: relative;
+      top: 3px;
+      background-color: #fff;
+      background-image: none;
+      border-radius: 7px;
+      box-shadow: -12px 5px 30px 1px rgba(0, 0, 0, 0.25);
+      transition: 0.3s;
+
+      span{
+        color: #000000;
+      }
     }
   }
-  .header-links {
+}
+.header-title {
+  color: #fff;
+  margin-bottom: 60px;
+  text-align: center;
+  align-items: center;
 
-    &__app-store {
-    }
+  h2{
+    text-align: center;
+    align-items: center;
+    margin-left: 461px;
+    margin-bottom: 28px;
+    width: 580px;
+    height: 204px;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 113%;
+    text-align: center;
+    color: #fff;
+  }
 
-    &__gplay {
+  &__text {
+    width: 862px;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 113%;
+    text-align: center;
+    color: #fff;
+    margin-left: 331px;
+  }
+}
+.header-media {
+  width: 26px;
+  height: 253px;
+  align-items: center;
+  text-align: center;
+
+  &__list {
+    margin-left: 96px;
+    transform: translateY(-70px);
+
+    li{
+      margin-bottom: 56px;
     }
+  }
+}
+.media1 {
+  transform: translateX(7px);
+}
+.media2 {
+}
+.media3 {
+}
+.media4 {
+}
+.header-images {
+  width: 1037px;
+  height: 655px;
+  transform: translate(200px,-290px);
+
+  &__phones {
+  }
+}
+.header-links {
+  width: 694px;
+  height: 79px;
+  transform: translate(430px,-150px);
+
+  &__app-store {
+  }
+
+  &__gplay {
   }
 }
